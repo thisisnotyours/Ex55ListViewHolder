@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>   <!-- 2) item 1 개의 설계도면(레이아웃)-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:contentPadding="16dp"
+    app:cardElevation="4dp">  <!--cardView 는 frame 상속받음--> <!--cardElevation 얼만큼 떠오르는지 결정-->
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#ff000000"
+        android:layout_gravity="center_vertical"/>  <!--나중에 글씨를 바꿔야하니 아이디를 줌-->
+
+</androidx.cardview.widget.CardView>
